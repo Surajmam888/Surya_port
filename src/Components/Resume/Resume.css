@@ -1,0 +1,200 @@
+#Resume{
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 8rem 2rem;
+
+
+}
+
+
+.ResumeTitle{
+    margin: 1rem 0;
+    font-size: 4rem;
+    
+    /* color: yellow; */
+}
+.ResumeTitles{
+    margin:  0;
+    position: relative;
+    bottom: 6.2rem;
+    overflow: hidden;
+
+    opacity: 0.1;
+    font-size: 6.1rem;
+    font-weight: 800;
+}
+
+
+.ResumeDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    bottom: 7rem;
+    position: relative;
+    
+
+}
+
+
+
+
+
+
+/* YourComponent.css */
+
+/* YourComponent.css */
+
+.boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    max-width: 60rem;
+    min-height: calc(100vh - 4rem);
+    position: relative;
+    bottom: 2rem;
+    gap: 1rem;
+  }
+  
+  .box {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    max-width: 460px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(50,50,50);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    text-align: left;
+  }
+  
+  .box:hover {
+    transform: scale(1.05); /* Increase the size on hover */
+    border: 1px solid #FED7EA;  
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+    color: #FED7EA;                 /*main color */
+    font-weight: 800;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    font-weight: 400;
+  color: white;    
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.4;
+   color: #F4D03F;
+   margin-bottom: 8px;
+   font-weight: 500;
+  }
+  
+
+
+
+  .CVbtn {
+    background: #FED7EA;
+    padding: 0.75rem 1.2rem;
+    border: none;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 5rem;
+  }
+
+  .CVbtn:hover {
+    transform: scale(1.05);
+  }
+
+
+
+
+
+
+  @media screen and (max-width:720px){
+    .boxContainer {
+        display: flex;
+       
+        flex-direction: column;
+       
+       gap: 1rem;
+       padding: 1rem;
+
+        bottom: 4rem;
+
+      
+      }
+
+
+      .ResumeTitles{
+        font-size: 5rem;
+        
+    }
+
+
+
+    h2 {
+        font-size: 1.5rem;
+       
+      }
+      
+      h3 {
+        font-size: 1rem;
+         
+      }
+      
+      p {
+        font-size: 1rem;
+       
+      }
+
+
+      .box span{
+        font-size: 12px;
+      }
+
+
+
+
+
+}
+
+@media screen and (max-width: 992px) {
+    .boxContainer {
+        padding: 20px;
+        max-width: 460px;
+        width: 100%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* background-color: rgb(50,50,50); */
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        text-align: left;
+    }
+    h3 {
+        font-size: 1rem;
+
+    }
+
+}
+
+

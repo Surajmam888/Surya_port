@@ -1,0 +1,157 @@
+#Contact{
+   
+    margin: 0 auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+
+
+}
+
+
+
+
+.ContactTitle{
+    /* margin: 1rem 0; */
+  
+    font-size: 4.2rem;
+    margin-top: 5rem;
+    
+}
+
+    
+  
+
+.ContactTitles{
+    margin:  0;
+    position: relative;
+    bottom: 6.9rem;
+    overflow: hidden;
+/* color: rgb(163, 189, 189); */
+    opacity: 0.1;
+    font-size: 6.3rem;
+    font-weight: 800;
+
+}
+
+
+
+
+
+
+.ContactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+
+
+
+.contactform{
+    /* margin-bottom: 3rem; */
+    /* position: absolute; */
+    /* bottom: 2rem; */
+    /* top: 1rem; */
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+
+}
+
+ .name, .email,.msg{
+    font-size: medium;
+    width: 100%;
+    max-width: 50rem;
+    margin: 0.5rem;
+    padding: 0.8rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background:rgb(40,40,40);
+ }
+
+ .submitBtn{
+    background: #FED7EA;
+    border: none;
+    padding: 0.75rem 3.5rem;
+border-radius: 0.5rem;
+margin:2rem;
+}
+
+
+.submitBtn:hover{
+    background:  #fed7eaa6;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+   
+
+}
+
+
+.link{
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+    cursor: pointer;
+}
+
+.link:hover{
+   
+   color: #FED7EA;
+   margin: 0 0.90rem;
+   
+}
+
+
+
+@media screen and (max-width:720px){
+
+    .ContactTitles{
+
+        bottom: 5rem;
+        font-size: 4.7rem;
+    }
+
+
+}
+
+
+
+
+/* Your existing styles */
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .responsive-modal {
+      width: 90%;
+      max-width: 300px;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 768px) {
+    .responsive-modal {
+      width: 70%;
+      max-width: 400px;
+    }
+  }
+  
+  /* Add more media queries as needed */
+  
